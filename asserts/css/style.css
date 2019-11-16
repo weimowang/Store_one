@@ -1,0 +1,638 @@
+/*the menu nav bar start ------->*/
+
+.weibody {
+    width: 100%;
+}
+
+.toggle-nav {
+    display: none;
+}
+
+.menu li {
+    list-style: none;
+    float: left;
+    margin: 0px 50px 0px 0px;
+    font-size: 18px;
+}
+
+.menu a {
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+    color: rgb(146, 151, 150)!important;
+    transition: color linear 0.15s;
+    cursor: pointer;
+}
+
+.menu .menu-logo {
+    margin: auto;
+    margin-left: 0px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.menu .menu-logo a {
+    color: #fff!important;
+}
+
+.menu a:hover, .menu .current-active a {
+    text-decoration: none;
+    color: #337275!important;
+}
+
+@media screen and (min-width: 900px) {
+    .menu {
+        width: 100%;
+        border-radius: 4px 4px 4px 4px;
+        background: #272626;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+        display: flex;
+    }
+    .menu ul {
+        padding-top: 15px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .menu {
+        position: relative;
+        width: 100%;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+        border-radius: 3px 3px 0px 0px;
+        background: #272626;
+    }
+    .toggle-nav {
+        position: absolute;
+        float: left;
+        position: absolute;
+        top: 20%;
+        left: 10px;
+        color: #ffffff!important;
+        text-decoration: none;
+    }
+    .toggle-nav.active {
+        top: 5%;
+    }
+    .menu .menu-logo {
+        text-align: center;
+    }
+    .menu ul.active {
+        display: none;
+    }
+    .menu ul {
+        left: 0px;
+        padding: 10px 25px;
+        margin-top: -5px;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+        border-radius: 0px 0px 3px 3px;
+        background: #272626;
+    }
+    .menu li {
+        margin: 10px 0px 10px 0px;
+        float: none;
+        display: block;
+    }
+    .menu a {
+        display: block;
+    }
+}
+
+/*blockFirst*/
+
+.blockFirst {
+    border-top: 1px solid #666;
+    background: #303030;
+    min-height: 60vh;
+    text-align: center;
+}
+
+.blockFirst h1 {
+    color: white;
+}
+
+.blockFirst .major {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.wei-header {
+    font-weight: 150;
+    font-size: 3.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+.wei-header-line {
+    font-weight: 100;
+    font-size: 1.2em;
+    border-top: solid 2px #fff;
+    display: inline-block;
+    color: white;
+}
+
+.page-wrapper {
+    background-image: url('../imgs/pic.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 0;
+    width: 100%;
+    height: 400px;
+}
+
+.blockSeond {
+    border-top: 1px solid #666;
+    /* background: #303030; */
+    width: 100%;
+    height: 100%;
+}
+
+.good_display-head {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.good_display {
+    margin: 20px 5px 20px 5px;
+}
+
+.good_display_items {
+    display: flex;
+    margin-top: 20px;
+    min-height: 300px;
+    max-height: 100%;
+    width: 100%;
+}
+
+.good_display_items:hover {
+    cursor: pointer;
+}
+
+.goods-item {
+    width: 100%;
+    border-radius: 5px 5px 5px 5px;
+    border: 0.5px solid #f8f4f4;
+    box-shadow: 3px 3px 8px #777;
+    min-height: 380px;
+    transition: top 0.4s ease 0s;
+    top: 0;
+    /*初始*/
+}
+
+.goods-item:hover {
+    position: relative;
+    top: -10px;
+}
+
+.goods-item .img-zoom {
+    overflow: hidden;
+}
+
+.itemimg {
+    border-radius: 5px 5px 0px 0px;
+    min-width: 100%;
+    max-height: 200px;
+    overflow: auto;
+    transition: transform 0.8s ease;
+}
+
+.itemimg:hover {
+    transform: scale(1.08);
+}
+
+.goods-ward {
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.goods-ward-title {
+    font-size: 16px;
+}
+
+.goods-ward-content {
+    font-size: 10px;
+    color: #666666;
+}
+
+.goods-btn {
+    margin: auto;
+    display: block;
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    border-color: rgb(236, 228, 228);
+    border-radius: 3px 3px 3px 3px;
+    background: rgb(236, 228, 228);
+    letter-spacing: 10px;
+    box-shadow: 1px 1px 5px rgb(224, 216, 216);
+}
+
+.goods-btn:hover {
+    background: #337275;
+    color: rgb(240, 233, 233);
+    border: none;
+    box-shadow: 1px 1px 10px #4e7a7c;
+    opacity: 0.8;
+}
+
+.blockthird {
+    width: 100%;
+    height: 100%;
+}
+
+.blockthird .page-wrapper {
+    height: 100%;
+    margin-top: 70px;
+    background-image: -moz-linear-gradient(top, rgba(14, 13, 13, 0.6), rgba(0, 0, 0, 0.9)), url("../imgs/camping2.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(14, 13, 13, 0.6), rgba(0, 0, 0, 0.9)), url("../imgs/camping2.jpg");
+    background-image: -ms-linear-gradient(top, rgba(14, 13, 13, 0.6), rgba(0, 0, 0, 0.9)), url("../imgs/camping2.jpg");
+    background-image: linear-gradient(top, rgba(14, 13, 13, 0.6), rgba(0, 0, 0, 0.9)), url("../imgs/camping2.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0;
+}
+
+.page-wrapper-box {
+    padding: 100px;
+    text-align: center;
+    color: white;
+}
+
+.page-wrapper-content {
+    text-align: left;
+    letter-spacing: 4px;
+}
+
+.page-wrapper-bottom {
+    margin-top: 50px;
+}
+
+/*blockfour ------>*/
+
+.blockfour {
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    opacity: 0.9;
+}
+
+.blockfour .wei-pic-boxs {
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    color: white;
+    text-align: center;
+}
+
+.blockfour .wei-pic-boxs .box {
+    position: relative;
+    min-width: 25%;
+    max-height: 100%;
+    transition: background-color 0.4s ease 0s;
+}
+
+.blockfour .wei-pic-boxs .box .b-img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.blockfour .wei-pic-boxs .box .b-img:hover {
+    cursor: pointer;
+    background-color: #1d2222;
+    opacity: 0.7;
+}
+
+.piczoom {
+    transition: transform 0.8s ease;
+}
+
+.blockfour .wei-pic-boxs .box .b-img:hover .piczoom {
+    transform: scale(1.08);
+}
+
+.blockfour .wei-pic-boxs .box .b-content {
+    height: 50%;
+    position: relative;
+    text-align: center;
+    line-height: 45vh;
+    letter-spacing: 2px;
+    margin: 1px;
+}
+
+.half {
+    height: 50%!important;
+}
+
+.left-pic {
+    background-image: url('../imgs/camping3.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.middleone-pic {
+    background-image: url('../imgs/camping8.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.middletwo-pic {
+    background-image: url('../imgs/camping4.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.right-doc {
+    background-image: url('../imgs/camping6.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.wei-pic-boxs .wei-Pagination {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .wei-pic-boxs .box {
+        display: none;
+    }
+    .wei-pic-boxs .box.active {
+        display: block;
+        position: relative;
+        min-width: 100%;
+        max-height: 100%;
+        transition: background-color 0.4s ease 0s;
+    }
+    .wei-pic-boxs .wei-Pagination {
+        
+    }
+}
+
+/*blockfour <-------------*/
+
+/*blockfive-------->start*/
+
+.blockfive {
+    width: 100%;
+    height: 100%;
+}
+
+.wei-box {
+    max-width: 25%;
+    color: #fff;
+    min-height: 100%;
+    background-color: #303030;
+    opacity: 0.8;
+    /* z-index: 1000; */
+    border-right: 1px solid rgb(175, 172, 172);
+    transition: background-color 0.4s ease 0s;
+}
+
+.wei-box:hover {
+    background-color: #4e7a7c;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.wei-box-content {
+    margin: 10px 25px 10px 25px;
+    min-height: 100%;
+    position: relative;
+    top: 0;
+    transition: top 0.4s ease 0s;
+}
+
+.wei-box-content:hover {
+    position: relative;
+    top: -60px;
+    cursor: pointer;
+}
+
+.wei-box-content-titile {
+    text-align: center;
+    font-size: 16px;
+    height: 40px;
+    color: #fff;
+}
+
+.wei-box-content-body {
+    font-size: 10px;
+    color: #fff;
+}
+
+.wei-box-empty {
+    height: 180px;
+}
+
+.wei-box-icon {
+    text-align: center;
+    height: 80px;
+}
+
+.wei-box-content-footer {
+    text-align: center;
+}
+
+.wei-box-content-footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.wei-box-content-footer a:hover {
+    text-decoration: none;
+    color: #1d2222;
+    cursor: pointer;
+}
+
+.backgroundimg {
+    cursor: pointer;
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.wei-boxs .wei-Pagination {
+    display: none;
+}
+
+.wei-boxs .wei-Pagination .pagebtn {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.wei-boxs .wei-Pagination .pagebtn i {
+    color: whitesmoke;
+}
+
+.wei-boxs .wei-Pagination .pagebtn i:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .wei-box {
+        position: relative;
+        display: none;
+    }
+    .wei-box.active {
+        display: block;
+        min-width: 100%;
+        min-height: 100%;
+        color: #fff;
+        background-color: #303030;
+        opacity: 0.8;
+        transition: background-color 0.4s ease 0s;
+    }
+    .wei-box:hover.active {
+        background-color: #4e7a7c;
+        opacity: 0.9;
+        cursor: pointer;
+    }
+    .wei-box-content {
+        margin: 10px 40px 10px 40px;
+        font-size: 16px;
+    }
+    .wei-box-content-titile {
+        text-align: center;
+        font-size: 18px;
+        height: 45px;
+        color: #fff;
+    }
+    .wei-box-content-body {
+        text-align: center;
+        font-size: 12px;
+        color: #fff;
+    }
+    .wei-box-icon i {
+        font-size: 60px!important;
+    }
+    .wei-boxs .wei-Pagination {
+        display: flex;
+        position: relative;
+        bottom: 10%;
+        left: calc(40%);
+        width: 100%;
+    }
+    .wei-boxs .wei-Pagination .pagebtn i {
+        color: whitesmoke;
+    }
+    .wei-boxs .wei-Pagination .pagebtn.active i {
+        color: #9e9595;
+        opacity: 0.9;
+    }
+}
+
+/*blockfive<-------- end*/
+
+/* 
+.empty-place {
+    width: 100%;
+    height: 10px;
+} */
+
+/*footer*/
+
+@media screen and (max-width: 768px) {
+    .footer .copyright li {
+        border-left: solid 1px white;
+        display: flex;
+        margin: 0px 5px 0px 5px;
+        padding: 0px 2px 0px 10px;
+    }
+}
+
+.footer {
+    width: 100%;
+    background: #303030;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer .footer-box {
+    padding: 8vw;
+    padding-bottom: 30px;
+}
+
+.footer .footer-menu {
+    /* color: gray; */
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer .footer-title {
+    font-size: 18px;
+    color: #777;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer .footer-menu :any-link {
+    color: gray;
+    font-size: 14px;
+    list-style: none;
+}
+
+.footer .footer-menu :any-link:hover {
+    color: #4e7a7c;
+    text-decoration: none;
+}
+
+.footer .sns {
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer .sns .weiicon {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #666;
+}
+
+.footer .sns .weiicon:any-link:hover {
+    text-decoration: none;
+    color: #4e7a7c;
+}
+
+.footer .copyright {
+    margin: auto;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 30px;
+    padding: 15px;
+    list-style: none;
+    font-size: 15px;
+}
+
+.footer .copyright li {
+    justify-items: center;
+    align-items: center;
+    border-left: solid 1px white;
+    display: inline-block;
+    margin: 0px 5px 0px 5px;
+    padding: 0px 2px 0px 10px;
+}
+
+.linecolor {
+    height: 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
