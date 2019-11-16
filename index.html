@@ -5,12 +5,317 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- font awson -->
+    <!-- <script src="https://kit.fontawesome.com/3b2516a060.js"></script> -->
+    <link href="../store_preactice/assets/css/fontawesome-free-5.9.0-web/css/all.css" rel="stylesheet">
+    <!--load all styles -->
+
 
 </head>
 
-<body>
+<body class='weibody'>
+    <nav class="menu">
+        <div class="menu-logo"><a>野營地</a></div>
+        <ul id="menuUl" class="active">
+            <li class="current-active">
+                <a>首頁</a>
+            </li>
+            <li>
+                <a>商品</a>
+            </li>
+            <li>
+                <a>關於我們</a>
+            </li>
+            <li>
+                <a>聯絡我們</a>
+            </li>
+        </ul>
+        <a id="menubtn" class="toggle-nav" href="#">&#9776;</a>
+    </nav>
 
+    <section class="blockFirst">
+        <div class="page-wrapper">
+            <header class="major">
+                <!-- <h1 class="wei-header" id="header_one">
+                    <span class="word">野營地</span>
+                </h1>
+                <span class="wei-header-line">烤肉・野餐・宿營・新鮮食材裝備通通都在這</span> -->
+            </header>
+        </div>
+    </section>
 
+    <section class="blockSeond">
+        <div class="good_display-head">
+            <h3>熱門商品</h3>
+        </div>
+
+        <div class="good_display col-md-12 col-sm-12">
+            <div class="row">
+                <div class="col-lg-4 good_display_items">
+                    <div class="goods-item">
+                        <div class="img-zoom">
+                            <a href="http://www.google.com.tw">
+                                <img class="itemimg" src="../stroe_one/assets/imgs/bbq-meat.jpg" height="392"
+                                    height="200px" /></a>
+                        </div>
+                        <div class="goods-ward">
+                            <p class="goods-ward-title">家庭烤肉套組(4人組)</p>
+                            <p class="goods-ward-content">設計了一份烤肉套餐</p>
+                            <p class="goods-ward-content">讓家人輕鬆地舉辦一個美好的BBQ PARTY.</p>
+                        </div>
+                        <button class="goods-btn">詳細內容</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 good_display_items">
+                    <div class="goods-item">
+                        <div class="img-zoom">
+                            <a href="http://www.google.com.tw">
+                                <img class="itemimg" src="../stroe_one/assets/imgs/food2.jpg" width="400px"
+                                    height="200px" /></a>
+                        </div>
+                        <div class="goods-ward">
+                            <p class="goods-ward-title">旅遊野營套組(5人組)</p>
+                            <p class="goods-ward-content">設計了一套野外露營裝備</p>
+                            <p class="goods-ward-content">讓野營同時具備安全與美感雙重享受</p>
+                        </div>
+                        <button class="goods-btn">詳細內容</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 good_display_items">
+                    <div class="goods-item">
+                        <div class="img-zoom">
+                            <a href="http://www.google.com.tw">
+                                <img class="itemimg" src="../stroe_one/assets/imgs/food1.jpg" width="400px"
+                                    height="200px" /></a>
+                        </div>
+                        <div class="goods-ward">
+                            <p class="goods-ward-title">野餐郊遊套組(4人組)</p>
+                            <p class="goods-ward-content">設計了一份郊遊餐點和餐具</p>
+                            <p class="goods-ward-content">讓你享受草地的氛圍與輕食的完美搭配更加放鬆</p>
+                        </div>
+                        <button class="goods-btn">詳細內容</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="blockthird">
+        <div class="page-wrapper">
+            <div class="page-wrapper-box">
+                <div class='page-wrapper-title'>
+                    <h3>品牌介紹</h3>
+                </div>
+                <div class='page-wrapper-content'>
+                    <p>
+                        純手工打造設計秉持著日本的職人精神，每個部位零件由專人手工打造，並經過反覆不段的測試來達到最完美的設備。
+                        並且經由野外宿營多達三十年經驗的人員進行實際體驗來改善使用者的體驗，追求最舒適的野外體驗賞漚是我們品牌的核心。
+                        再藉由顧客們不同的回饋，我們吸收並虛心接納，來不段創新更多舒適的野外體驗設備，且團隊藉由許多的活動講座來研發更多更方便的未來野外用具。
+                        我們相信更完善的裝備，能吸引更多人體驗野外自然的奧秒與神秘。
+                    </p>
+                </div>
+                <div class='page-wrapper-bottom'>
+                    <button class="goods-btn">品牌商品</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="blockfour">
+
+        <div class="wei-pic-boxs">
+
+            <div class="box active">
+                <div class="b-img ">
+                    <div class="left-pic piczoom"></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="b-img half">
+                    <div class='middleone-pic piczoom '></div>
+                </div>
+                <div class="b-content">
+                    <p>
+                        Camping & outdoor
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="b-content" style="height: 50%;">
+                    <p> BBQ & Picknic
+                    </p>
+                </div>
+                <div class="b-img half">
+                    <div class="middletwo-pic piczoom"></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="b-img half">
+                    <div class="right-doc piczoom"></div>
+                </div>
+                <div class="b-content">
+                    <p>
+                        Editing & customizing
+                    </p>
+                </div>
+            </div>
+            <div class="wei-Pagination">
+                <div class="pagebtn active"><i class="fas fa-square"></i></div>
+                <div class="pagebtn"><i class="fas fa-square"></i></div>
+                <div class="pagebtn"><i class="fas fa-square"></i></div>
+                <div class="pagebtn"><i class="fas fa-square"></i></div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="blockfive">
+        <!-- <img src="../stroe_one/assets/imgs/camping.jpg"> -->
+        <div class="backgroundimg" style="background-image:url('../stroe_one/assets/imgs/camping.jpg')">
+            <div id='wei-boxs' class="row wei-boxs" style="height: 100%;margin: 0 auto;">
+                <div class="wei-box active">
+                    <div class="wei-box-content">
+                        <div class="wei-box-empty"></div>
+                        <div class="wei-box-icon">
+                            <i class="far fa-hand-point-up" style="font-size:40px;"></i>
+                        </div>
+                        <div class="wei-box-content-titile">
+                            <p>專業</p>
+                        </div>
+                        <div class="wei-box-content-body">
+                            <p>全部食材皆由安全相關驗證，必由專業的營養師來安排食材的組合</p>
+                        </div>
+                        <div class="wei-box-content-footer">
+                            <a href="file:///Users/WEIMOWANG/Desktop/my%20practice/stroe_one/index.html?#">更多資訊</a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" wei-box">
+                    <div class="wei-box-content">
+                        <div class="wei-box-empty"></div>
+                        <div class="wei-box-icon">
+                            <i class="far fa-bell" style="font-size:40px;"></i>
+                        </div>
+                        <div class="wei-box-content-titile">
+                            安全
+                        </div>
+                        <div class="wei-box-content-body">
+                            <p>全部食材與裝備皆由安全相關驗證，並通國家的食品衛生認真保證吃得安心又美味又安全。</p>
+                        </div>
+                        <div class="wei-box-content-footer">
+                            <a href="file:///Users/WEIMOWANG/Desktop/my%20practice/stroe_one/index.html?#">更多資訊</a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" wei-box">
+                    <div class="wei-box-content">
+                        <div class="wei-box-empty"></div>
+                        <div class="wei-box-icon">
+                            <i class="far fa-map" style="font-size:40px;"></i>
+                        </div>
+                        <div class="wei-box-content-titile">
+                            地點
+                        </div>
+                        <div class="wei-box-content-body">
+                            <p> 全台各地皆能送達與貨運公司且食材搭配低溫冷藏運送，或是藉由各大超商取貨。</p>
+                        </div>
+                        <div class="wei-box-content-footer">
+                            <a href="file:///Users/WEIMOWANG/Desktop/my%20practice/stroe_one/index.html?#">更多資訊</a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" wei-box">
+                    <div class="wei-box-content">
+                        <div class="wei-box-empty"></div>
+                        <div class="wei-box-icon">
+                            <i class="fas fa-globe-americas" style="font-size:40px;"></i>
+                        </div>
+                        <div class="wei-box-content-titile">
+                            通路
+                        </div>
+                        <div class="wei-box-content-body">
+                            <p>可經由網路直接下單訂購或是藉由各大露營地和休閒農場等進行選購。</p>
+                        </div>
+                        <div class="wei-box-content-footer">
+                            <a href="file:///Users/WEIMOWANG/Desktop/my%20practice/stroe_one/index.html?#">更多資訊</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wei-Pagination">
+                    <div class="pagebtn active"><i class="fas fa-square"></i></div>
+                    <div class="pagebtn"><i class="fas fa-square"></i></div>
+                    <div class="pagebtn"><i class="fas fa-square"></i></div>
+                    <div class="pagebtn"><i class="fas fa-square"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <hr class="linecolor"> -->
+    <footer class="footer">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <div class="footer-box">
+                    <div class="footer-title">野食舖</div>
+                    <ul class="footer-menu">
+                        <li><a href="">首頁</a></li>
+                        <li><a href="">產品介紹</a></li>
+                        <li><a href="">關於我們</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 ">
+                <div class="footer-box">
+                    <div class="footer-title">產品</div>
+                    <ul class="footer-menu">
+                        <li><a href="">超值家庭烤肉組合</a></li>
+                        <li><a href="">歡樂旅遊野營組合</a></li>
+                        <li><a href="">甜蜜情侶烤肉組合</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 ">
+                <div class="footer-box">
+                    <div class="footer-title">關於我們</div>
+                    <ul class="footer-menu">
+                        <li><a href="">門市位置</a></li>
+                        <li><a href="">聯絡資訊</a></li>
+                        <li><a href="">加入我們</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="sns">
+            <a href="" class='weiicon'>
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="" class='weiicon'>
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class='weiicon'>
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class='weiicon'>
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+        <hr class="linecolor">
+        <div class="col-md-12 col-sm-12">
+            <ul class="copyright">
+                <li> Copyright ©</li>
+                <li> Design: Weimo Wang</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="assets/scripts/main.js"></script>
 </body>
 
 </html>
