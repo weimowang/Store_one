@@ -255,9 +255,13 @@
 }
 
 .page-wrapper-box {
-    padding: 100px;
+    padding: 50px 100px 100px 100px;
     text-align: center;
     color: white;
+}
+
+.page-wrapper-box .page-wrapper-title {
+    margin-bottom: 20px;
 }
 
 .page-wrapper-content {
