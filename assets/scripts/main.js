@@ -35,5 +35,25 @@ window.onload = function () {
         $(this).toggleClass('active');
     })
 
+
+    $('.pagebtn-one').click(function () {
+        var _btnindex = $(this).index();
+
+        $('.wei-pic-boxs').find('div').each(function () {
+            if ($(this).hasClass('active')) {
+                $(this).toggleClass('active');
+            }
+        })
+        $('.wei-pic-boxs').children().eq(_btnindex).toggleClass('active');
+
+        $(this).parent().find('div').each(function () {
+            if ($(this).hasClass('active')) {
+                $(this).toggleClass('active');
+            }
+        })
+
+        $(this).toggleClass('active');
+
+    })
 }
 
