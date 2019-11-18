@@ -41,7 +41,7 @@
 @media screen and (min-width: 900px) {
     .menu {
         width: 100%;
-        border-radius: 4px 4px 4px 4px;
+        border-radius: 4px 4px 0px 0px;
         background: #272626;
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
         display: flex;
@@ -101,32 +101,33 @@
 .blockFirst {
     border-top: 1px solid #666;
     background: #303030;
-    min-height: 60vh;
+    min-height: 90vh;
     text-align: center;
-}
-
-.blockFirst h1 {
-    color: white;
 }
 
 .blockFirst .major {
     text-align: center;
-    padding-top: 150px;
+    padding-top: 40vh;
 }
 
 .wei-header {
+    opacity: 0.9;
+    color: #fff;
     font-weight: 150;
-    font-size: 3.8em;
+    font-size: 3em;
     text-transform: uppercase;
     letter-spacing: 0.5em;
+    font-family: Arial;
 }
 
 .wei-header-line {
+    letter-spacing: 40px;
     font-weight: 100;
-    font-size: 1.2em;
+    font-size: 1.5em;
     border-top: solid 2px #fff;
     display: inline-block;
     color: white;
+    font-family: 'Noto Sans TC', sans-serif;
 }
 
 .page-wrapper {
@@ -136,7 +137,7 @@
     background-repeat: no-repeat;
     padding-top: 0;
     width: 100%;
-    height: 400px;
+    height: 90vh;
 }
 
 .blockSeond {
@@ -267,6 +268,8 @@
 .page-wrapper-content {
     text-align: left;
     letter-spacing: 4px;
+    font-family: 'Noto Sans TC', sans-serif;
+
 }
 
 .page-wrapper-bottom {
