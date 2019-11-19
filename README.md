@@ -12,3 +12,6 @@
 4.footer包含選單排列
 <br>
 5.加上文字效果（aos）
+<br>
+主要包含到html+css+jquery+bootstrap
+網址：http://weimow.sg-host.com/
