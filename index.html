@@ -15,24 +15,23 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--font noto snas tc tw-->
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
-
-
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body class='weibody'>
     <nav class="menu">
         <div class="menu-logo"><a>野營地</a></div>
         <ul id="menuUl" class="active">
-            <li class="current-active">
+            <li class="current-active" id="menuhome">
                 <a>首頁</a>
             </li>
-            <li>
+            <li id="menuproduct">
                 <a>商品</a>
             </li>
-            <li>
+            <li id="menuabout">
                 <a>關於我們</a>
             </li>
-            <li>
+            <li id="menucontact">
                 <a>聯絡我們</a>
             </li>
         </ul>
@@ -49,65 +48,62 @@
             </header>
         </div>
     </section>
-
-    <section class="blockSeond">
-        <div class="good_display-head" data-aos="zoom-in-down">
-            <h3>熱門商品</h3>
+    <section class="blockSeond" id="product">
+        <div class="toptitle">
+            <h1>熱門商品</h1>
         </div>
-
-        <div class="good_display col-md-12 col-sm-12">
-            <div class="row">
-                <div class="col-lg-4 good_display_items" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="goods-item">
-                        <div class="img-zoom">
-                            <a href="http://www.google.com.tw">
-                                <img class="itemimg" src="../Store_one/assets/imgs/bbq-meat.jpg" height="392"
-                                    height="200px" /></a>
+        <div class="good_display col-md-12 col-sm-12 wei-mgpazero">
+            <div class="row wei-mgpazero">
+                <div id="product_display_item" class="col-lg-4 wei-mgpazero product_display_item" data-aos="fade-up"
+                    data-aos-duration="1000">
+                    <div class="product-item">
+                        <a href="http://google.com">
+                            <div class="img-zoom">
+                                <button class="product-imgbtn">detail</button>
+                                <img class="product-item-img" src="../Store_one/assets/imgs/product1.jpg">
+                            </div>
+                        </a>
+                        <div class="product-item-content">
+                            <h4 class="item-title">Cool Cup</h4>
+                            <span class="item-content">awsome design on it.</span>
                         </div>
-                        <div class="goods-ward">
-                            <p class="goods-ward-title">家庭烤肉套組(4人組)</p>
-                            <p class="goods-ward-content">設計了一份烤肉套餐</p>
-                            <p class="goods-ward-content">讓家人輕鬆地舉辦一個美好的BBQ PARTY.</p>
-                        </div>
-                        <button class="goods-btn">詳細內容</button>
                     </div>
                 </div>
-                <div class="col-lg-4 good_display_items" data-aos="fade-up" data-aos-duration="1500">
-                    <div class="goods-item">
-                        <div class="img-zoom">
-                            <a href="http://www.google.com.tw">
-                                <img class="itemimg" src="../Store_one/assets/imgs/food2.jpg" width="400px"
-                                    height="200px" /></a>
+                <div id="product_display_item" class="col-lg-4 wei-mgpazero product_display_item" data-aos="fade-up"
+                    data-aos-duration="1000">
+                    <div class="product-item">
+                        <a href="http://google.com">
+                            <div class="img-zoom">
+                                <button class="product-imgbtn">detail</button>
+                                <img class="product-item-img" src="../Store_one/assets/imgs/product2.jpg">
+                            </div>
+                        </a>
+                        <div class="product-item-content">
+                            <h4 class="item-title">Coffee Cup</h4>
+                            <span class="item-content">awsome design on it.</span>
                         </div>
-                        <div class="goods-ward">
-                            <p class="goods-ward-title">旅遊野營套組(5人組)</p>
-                            <p class="goods-ward-content">設計了一套野外露營裝備</p>
-                            <p class="goods-ward-content">讓野營同時具備安全與美感雙重享受</p>
-                        </div>
-                        <button class="goods-btn">詳細內容</button>
                     </div>
                 </div>
-                <div class="col-lg-4 good_display_items" data-aos="fade-up" data-aos-duration="2000">
-                    <div class="goods-item">
-                        <div class="img-zoom">
-                            <a href="http://www.google.com.tw">
-                                <img class="itemimg" src="../Store_one/assets/imgs/food1.jpg" width="400px"
-                                    height="200px" /></a>
+                <div id="product_display_item" class="col-lg-4 wei-mgpazero product_display_item" data-aos="fade-up"
+                    data-aos-duration="1000">
+                    <div class="product-item">
+                        <a href="http://google.com">
+                            <div class="img-zoom">
+                                <button class="product-imgbtn">detail</button>
+                                <img class="product-item-img" src="../Store_one/assets/imgs/product3.jpg">
+                            </div>
+                        </a>
+                        <div class="product-item-content">
+                            <h4 class="item-title">Totem Cup</h4>
+                            <span class="item-content">awsome design on it.</span>
                         </div>
-                        <div class="goods-ward">
-                            <p class="goods-ward-title">野餐郊遊套組(4人組)</p>
-                            <p class="goods-ward-content">設計了一份郊遊餐點和餐具</p>
-                            <p class="goods-ward-content">讓你享受草地的氛圍與輕食的完美搭配更加放鬆</p>
-                        </div>
-                        <button class="goods-btn">詳細內容</button>
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
 
-    <section class="blockthird">
+    <section class="blockthird" id="about">
         <div class="page-wrapper">
             <div class="page-wrapper-box">
                 <div class='page-wrapper-title' data-aos="zoom-in-down" data-aos-duration="1000">
@@ -130,9 +126,7 @@
     </section>
 
     <section class="blockfour">
-
         <div class="wei-pic-boxs">
-
             <div class="box active">
                 <div class="b-img " data-aos="fade-right" data-aos-offset="200" data-aos-delay="50"
                     data-aos-duration="1000">
@@ -145,15 +139,12 @@
                     <div class='middleone-pic piczoom '></div>
                 </div>
                 <div class="b-content" data-aos="zoom-in">
-                    <p>
-                        Camping & outdoor
-                    </p>
+                    <span> Camping & outdoor</span>
                 </div>
             </div>
             <div class="box">
-                <div class="b-content" style="height: 50%;" data-aos="zoom-in">
-                    <p> BBQ & Picknic
-                    </p>
+                <div class="b-content" data-aos="zoom-in">
+                    <span>BBQ & Picknic</span>
                 </div>
                 <div class="b-img half" data-aos="fade-down-left" data-aos-offset="200" data-aos-delay="50"
                     data-aos-duration="1000">
@@ -166,9 +157,7 @@
                     <div class="right-doc piczoom"></div>
                 </div>
                 <div class="b-content" data-aos="zoom-in">
-                    <p>
-                        Editing & customizing
-                    </p>
+                    <span> Editing & customizing</span>
                 </div>
             </div>
             <div class="wei-Pagination">
@@ -184,7 +173,7 @@
     <section class="blockfive">
         <!-- <img src="../stroe_one/assets/imgs/camping.jpg"> -->
         <div class="backgroundimg" style="background-image:url('../Store_one/assets/imgs/camping.jpg')">
-            <div id='wei-boxs' class="row wei-boxs" style="height: 100%;margin: 0 auto;">
+            <div id='wei-boxs' class="row wei-boxs" style="width:100%;height: 100%;margin: 0 auto;">
                 <div class="wei-box active">
                     <div class="wei-box-content">
                         <div class="wei-box-empty"></div>
@@ -264,7 +253,78 @@
         </div>
     </section>
 
-    <!-- <hr class="linecolor"> -->
+    <section class="blocksix" id="contact">
+        <div class="contact-left">
+            <iframe width="100%" frameborder="0" style="border:0;height:100%;"
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBE12mniylzeRqRz_qKs4gpNunyT8bzJ8U&q=台北市木柵動物園"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <div class="contact-right">
+            <h1>Contact US</h1>
+            <div style="display: flex;">
+                <div class="contact-content">
+                    <div class="cc-item">
+                        <div class="cc-item-top">
+                            <i class="fas fa-location-arrow"></i>
+                            <h5>Address</h5>
+                        </div>
+                        <div class="cc-item-bottom">
+                            <span>臺北市立動物園11656台北市文山區新光路二段30號</span>
+                        </div>
+                    </div>
+                    <div class="cc-item">
+                        <div class="cc-item-top">
+                            <i class="fas fa-envelope"></i>
+                            <h5>Email</h5>
+                        </div>
+                        <div class="cc-item-bottom">
+                            <span>hellowworld@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="cc-item">
+                        <div class="cc-item-top">
+                            <i class="fas fa-phone"></i>
+                            <h5>Phone</h5>
+                        </div>
+                        <div class="cc-item-bottom">
+                            <p>(02)xxxx-xxxx</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-content">
+                    <div class="cc-item">
+                        <div class="cc-item-top">
+                            <i class="fas fa-location-arrow"></i>
+                            <h5>Address</h5>
+                        </div>
+                        <div class="cc-item-bottom">
+                            <span>臺北市立動物園11656台北市文山區新光路二段30號</span>
+                        </div>
+                    </div>
+                    <div class="cc-item">
+                        <div class="cc-item-top">
+                            <i class="fas fa-envelope"></i>
+                            <h5>Email</h5>
+                        </div>
+                        <div class="cc-item-bottom">
+                            <span>hellowworld@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="cc-item">
+                        <div class="cc-item-top">
+                            <i class="fas fa-phone"></i>
+                            <h5>Phone</h5>
+                        </div>
+                        <div class="cc-item-bottom">
+                            <p>(02)xxxx-xxxx</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer class="footer">
         <div class="row">
             <div class="col-md-4 col-sm-12">
@@ -281,9 +341,9 @@
                 <div class="footer-box">
                     <div class="footer-title">產品</div>
                     <ul class="footer-menu">
-                        <li><a href="">超值家庭烤肉組合</a></li>
-                        <li><a href="">歡樂旅遊野營組合</a></li>
-                        <li><a href="">甜蜜情侶烤肉組合</a></li>
+                        <li><a href="">Cool cup </a></li>
+                        <li><a href="">Coffee cup</a></li>
+                        <li><a href="">Cotem cup</a></li>
                     </ul>
                 </div>
             </div>
